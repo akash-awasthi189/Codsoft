@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+body{
+    background-color: #0d1f69;
+}
+header h3{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    font-family: 'Dancing Script', cursive;
+   font-size: 2vw;
+   color: beige;
+
+}
+header h1{
+    margin-top: 0vw;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+   font-size: 8vw;
+   color: beige; 
+}
+.dates{
+    background-color: #70e7f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.container{
+    margin:0 8vw;
+}
+.container h2{
+   text-decoration: underline;
+   color: white;
+   font-family: 'Roboto Slab', serif;
+   font-size: x-large;
+   text-align: center;
+}
+.container ul li{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+}
+
+.container ul{
+    margin-left: 5vw;
+    margin-top: 1vw;
+}
+
+
+.container span{
+    color: #59e835;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 27vw 36vw 30vw;
+    flex-direction: row;
+}
+.left {
+   margin: auto;
+   margin-left: 4vw;
+   color: white;
+   font-family: 'Pacifico', cursive;
+   font-size: x-large;
+}
+.middle img{
+    margin-left: 14vw;
+}
+.right {
+    margin: auto;
+    margin-right: 1vw;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    text-align: right;
+ }
+ .container2 p span{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: xx-large ;
+ }
+ .container2 p{
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: xx-large;
+ }
